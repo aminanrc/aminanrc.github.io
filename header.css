@@ -1,0 +1,55 @@
+body {height:4000px}
+.container{width: 1170px; margin: 0 auto}
+
+.header .slider{height: 600px; background-color:palevioletred;}
+.header .slider .cover{ text-align: center;
+padding-top: 300px; }
+
+.header .slider .cover h2{color:yellow; font-size:53px;
+border-top:3px solid yellow ;border-bottom: 3px  solid yellow ;  
+text-transform: uppercase}
+.header .slider .cover   button{background-color: violet; border: 3px solid yellow;
+     text-transform: capitalize ; width: 100px; height: 50px;
+    font-weight: bold;font-size: 14px;}
+
+
+    
+    .header .navbar{height:70px; background-color: lightgreen; overflow: hidden;}
+    .header .navbar h2{float: left; font-size: 24px; color: green; text-transform: uppercase }
+    .header .navbar ul{list-style: none; float: right}
+    .header .navbar ul li{float: left; padding-right: 40px}
+    .header .navbar ul li a{text-decoration: none ; font-size: 24px ; color:green}
+    .header .navbar ul li a:hover{font-size: 26px; color: red}
+
+
+
+
+    .course{height: 1000px;background-color: lightskyblue; overflow: hidden;}
+    .course .cour{width: 33.333%; float: left; text-align: center;padding-top: 40px}
+    .course .cour img{border: 3px solid red}
+    .course .cour h2{color:red; font-size: 16px}
+    .course .cour p{font-size: 12px;font-family: Arial, Helvetica, sans-serif}
+    .course .cour button{background-color: violet; border: 3px solid yellow;
+        text-transform: capitalize ; width: 80px; height: 30px;
+       font-weight: bold;font-size: 10px;}
+
+
+       .photo{height: 1000px; background-color: bisque;overflow: hidden;}
+       .photo .hp{text-align: center; color: palevioletred;font-size: 16px;text-transform: capitalize}
+       
+       .photo .image{width: 33.333%; float: left; margin-bottom: 30px; text-align: center}
+       .photo .image img{border: 3px solid yellow}
+
+
+
+       .contact{ background-color: grey;overflow: hidden;}
+       .contact .head{text-align: center}
+       .contact .pic{width: 50%; float: left}
+       .contact .reg{width: 50%; float: right}
+       .contact .reg input[type="text"]{background-color: gainsboro;height: 50px; width: 300px;
+        border: 2px solid red;border-radius: 10px}
+       .contact .reg input[type="email"]{background-color: gainsboro;height: 50px; width: 300px;
+        border: 2px solid red;border-radius: 10px}
+        .contact .reg textarea{background-color:gainsboro;height: 60px;width: 500px }
+        .contact .reg input[type="submit"]{background-color: gainsboro;height: 50px; width: 100px;
+            border: 2px solid red;border-radius: 10px}
