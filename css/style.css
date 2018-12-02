@@ -1,0 +1,125 @@
+/*start header*/
+.container{width: 1170px; margin: 0 auto}
+.header .navbar{height:70px;background-color: #001F3B}
+.header .navbar h2{ float: left;font-size: 20px;text-transform: uppercase;color: white;
+    font-family: Arial, Helvetica, sans-serif }
+.header .navbar h2 span{color:#E5E4E3;font-size: 21px} 
+.header .navbar ul{float: right; list-style: none}
+.header .navbar li{float: left;padding-right: 20px}
+.header .navbar li a{font-size: 20px; color: white;text-decoration: none}
+.header .navbar li a:hover{color: #633A7A;}
+.header .navbar li .active{color: white}  
+.header .slider{height: 500px;}
+ #carouselExampleIndicators {height: 500px;background-size: cover;}
+ #carouselExampleIndicators .carousel-caption{bottom: 140px}
+.header .slider #carouselExampleIndicators  img{height: 500px;}
+.header .slider #carouselExampleIndicators .style{text-align:center;color:white;padding-top: 200px;font-size: 40px;}
+#carouselExampleIndicators .carousel-caption .work{background-color:#001F3B;height: 50px;width: 200px;color: white;
+    font-weight: bold;border:2px solid  #167AAB;border-radius: 15px}
+#carouselExampleIndicators .carousel-caption .work1{background-color:#FDBF51;height: 50px;width: 200px;color: white
+        font-weight: bold;border:2px solid  #120A05;border-radius:15px}
+#carouselExampleIndicators .carousel-caption .work3{background-color:#167AAB;height: 50px;width: 200px;color: white;
+            font-weight: bold;border:2px solid #001F3B;border-radius: 15px}
+
+ #carouselExampleIndicators button {margin-top: 100px;}
+ 
+
+.header .slider #carouselExampleIndicators .style1{text-align:center;color:white;padding-top: 200px;font-size: 40px;}
+.header .slider #carouselExampleIndicators .style2{text-align:center;color:white;padding-top: 200px;font-size: 40px;}
+                                   /*end header*/
+/*start survices*/
+.survices{height: 600px; overflow: hidden ; background-color: #18C2A5}
+.survices .sur{text-align:center;color: white;padding-top: 100px}
+.survices .image{width: 25%; text-align: center;float: left;padding-top: 20px}
+.survices .image h2{font-size: 16px; color: white;text-align: center}
+.survices .image p{font-size: 12px;text-align: center;color: white}
+                                 /*end survices*/
+  /**start team*/                               
+.team{height: 600px; overflow: hidden;background-color: #E7F2F8}
+.team  .tm{padding-top: 20px; color:#3C4862;text-align: center;}
+.team .pic{ width: 25%;text-align: center; padding-top: 20px;float:left; }
+.team .pic img{ border-radius: 50%}
+.team .pic h2{color:#27283D;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.team .pic h3{color:#64C6EC}
+.team .pic p{color:#27283D;font-size: 12px}
+                       /**end team**/
+
+ /**start prot**/         
+.prot{height:1250PX;background-color:#FEDD98;overflow: hidden;}
+.prot .pr {padding-top: 15px; text-align: center;color:#393939;}
+.prot .pr h2{font-size: 26px}
+.prot .pr p{font-size: 20px;padding-bottom: 30px;font-family: Arial, Helvetica, sans-serif}
+.prot .pr .list{overflow: hidden;text-align: center;padding-bottom:40px;}
+.prot .pr ul{list-style: none;    margin-left: 370px;padding-top:1px}
+.prot .pr ul li{float: left;padding-right: 20px;text-align: center}
+.prot .pr ul li button{text-align: center;background-color: #EBC984;height:40px;width:60px;color:#393939;
+border: 2px solid  #EBC984;font-size: 14px;border-radius: 15px}
+.prot .pr .list .active{background-color: white}
+.prot .picture .photo{width:50%;float: left;margin-bottom: 50px;}
+.prot .picture .photo h2{font-size: 20px;color:#3D3D3C;text-align: center}
+.prot .be{text-align: center}
+ .prot button{height: 70px;width: 200px;color: white;background-color: #18C2A5;text-align:center;border:3px solid  #18C2A5;
+    border-radius: 15px}
+               /**end prot**/
+/**start people**/
+.people{height: 600px; background-color: #D7467F;overflow: hidden;}
+.people h2{color:white;text-align: center;font-size: 30px;}
+.people p{color:white;text-align: center;font-size: 20px;}
+.people .amena{overflow: hidden;width: 50%;float: left;margin-top: 50px}
+.people .amena .pict{width: 20%;float: left;margin-right: 5%;padding-bottom: 40px}
+.people .amena .pict img{border-radius: 50%;}
+.people .amena .iman{width: 40%;float: left;}
+.people .amena .iman p{color:white;font-size: 14px;line-height: 1.6;font-style: italic}
+.people .amena .iman h2{color:white;font-size: 18px;text-align:left;margin-left: 20px}
+.people .amena .iman h3{color:#f1f18f;font-size: 14px;text-align: left;margin-left: 20px}
+                /**end people**/
+  /**start footer**/              
+.footer{background-color: #3C549A; height: 700px;overflow: hidden;}
+.footer .head{text-align: center;color: white}
+.footer .head h2{font-size: 30px;font-family: Arial, Helvetica, sans-serif}
+.footer .head p{font-size: 18px; }
+.footer .reg{height: 400px; text-align: center;padding-top: 100px}
+.footer .reg input[type="text"]{background-color: #24366A;height: 80px; width: 400px;border:3px solid  #3C549A;border-radius: 15px;margin-right:50px;
+color:white;padding:0 20px;font-size: 30px }
+ ::-webkit-input-placeholder{color: white;font-size: 14px}
+
+.footer .reg input[type="email"]{background-color: #24366A;height: 80px; width: 400px;border:3px solid  #3C549A;border-radius: 15px;
+    color:white;padding:0 20px;font-size: 30px }
+    ::-webkit-input-placeholder{color: white;font-size: 14px}
+.footer .reg textarea{height: 200px; width:850px;border:3px solid  #3C549A;border-radius: 15px;background-color:#24366A;
+    margin-top: 50px;color:white;
+    padding:0 20px;font-size: 30px   }
+    ::-webkit-textarea-placeholder{color: white;font-size: 14px;}
+.footer .reg input[type="submit"] {color:white; background-color: #30BAE8;margin-top: 60px;;border:3px solid  #3C549A;
+    border-radius: 15px;height: 60px;
+    width: 200px;font-size: 16px}
+                        /**end footer**/
+/**start link**/
+ .link{height: 100px;overflow: hidden;background-color: #24366A;}
+ .link ul{list-style: none;float: right;margin-right: 190px}
+ .link ul li{padding-right:20px;float: left;}
+ .link ul li a{text-decoration: none;color:white;font-size: 20px;text-align: center}
+ .link ul li a:hover{color:#317CB3}
+ .link h6{color:white;text-align: center;}
+             /**end link**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
